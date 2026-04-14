@@ -22,6 +22,8 @@ To implement an SDN-based QoS controller using Mininet and POX that prioritizes 
 - h1 → High Priority (priority = 100)
 - h2, h3 → Low Priority (priority = 10)
 - Flow rules installed using OpenFlow
+- TCP traffic → High Priority
+- ICMP traffic → Low Priority
 
 ## Steps to Run
 
